@@ -83,7 +83,7 @@ class DicePF2e {
             )
                 rollParts.splice(rollParts.indexOf("@circumstanceBonus"), 1);
             // Execute the roll and send it to chat
-            const roll = new Roll(rollParts.join("+"), data).roll({ async: false });
+            const roll = new Roll(rollParts.join("+"), data).roll({ async: true });
             const origin = item ? { uuid: item.uuid, type: item.type } : null;
             roll.toMessage(
                 {
