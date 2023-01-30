@@ -1,6 +1,6 @@
 {
-    "id": "pf2e",
-    "title": "Pathfinder 2nd Edition",
+    "id": "pf2e_g",
+    "title": "Pathfinder 2nd Edition (Gavagai)",
     "description": "A community contributed game system for Pathfinder Second Edition",
     "license": "./LICENSE",
     "version": "4.6.8",
